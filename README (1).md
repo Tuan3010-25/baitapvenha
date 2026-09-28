@@ -219,6 +219,8 @@ msg.payload = {
 };
 return msg;
 
+![alt text](ANHBT/11.png)
+
 ### 3. Code JS gọi API trong trang HTML
 
 - File: `index.html`
