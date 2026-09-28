@@ -14,7 +14,7 @@
 
 > Điền link repo của bạn vào đây sau khi tạo.
 
-- Link repo: `https://github.com/<username>/<ten-repo>`
+- Link repo: https://github.com/Tuan3010-25/baitapvenha
 
 ---
 
@@ -59,7 +59,7 @@ Khóa 192-bit: 12 vòng mã hóa ($N = 12$).
 
 Khóa 256-bit: 14 vòng mã hóa ($N = 14$).
 
-![alt text](2.webp)
+![alt text](ANHBT/2.webp)
 
 ### 1.3. Quy trình mã hoá / giải mã (DES & AES)
 
@@ -149,7 +149,7 @@ if __name__ == "__main__":
 **Yêu cầu:**
 - Nguyên lý sinh cặp khoá bí mật (private key) và khoá công khai (public key)
 
-![alt text](3.png)
+![alt text](ANHBT/3.png)
 
 ---
 
@@ -160,7 +160,7 @@ if __name__ == "__main__":
 - So sánh thời gian mã hoá / giải mã giữa RSA và AES
 - Đề xuất cách dùng kết hợp RSA và AES
 
-![alt text](4.png)
+![alt text](ANHBT/4.png)
 
 ---
 
@@ -172,11 +172,11 @@ if __name__ == "__main__":
 
 - Công cụ sử dụng:  VMware 
 
-![alt text](5.png)
+![alt text](ANHBT/5.png)
 
 ### 2. Cài đặt Docker Compose
 
-![alt text](6.png)
+![alt text](ANHBT/6.png)
 
 
 ### 3. Cài các dịch vụ trên Docker Compose
@@ -185,7 +185,7 @@ Các dịch vụ cần cài: `nginx`, `nodered`, `mariadb`, `phpmyadmin`, `cloud
 
 - File cấu hình: `docker-compose.yml`
 
-![alt text](7.png)
+![alt text](ANHBT/7.png)
 
 ### 4. Cấu hình Nginx chạy 2 website với 2 domain khác nhau
 
@@ -193,7 +193,7 @@ Các dịch vụ cần cài: `nginx`, `nodered`, `mariadb`, `phpmyadmin`, `cloud
 - Domain 2: nghvtuan.id.vn/api/tacke
 - File cấu hình nginx: `nginx/conf.d/`
 
-![alt text](8.png)
+![alt text](ANHBT/8.png)
 
 ---
 
@@ -203,7 +203,7 @@ Các dịch vụ cần cài: `nginx`, `nodered`, `mariadb`, `phpmyadmin`, `cloud
 
 - Sử dụng node `http in` + `http response` để tạo API
 
-![alt text](9.png)
+![alt text](ANHBT/9.png)
 
 ### 2. Cấu hình Nginx để web gọi được API Node-RED (qua JS)
 
@@ -223,7 +223,7 @@ return msg;
 
 - File: `index.html`
 
-![alt text](10.png)
+![alt text](ANHBT/10.png)
 
 ---
 
