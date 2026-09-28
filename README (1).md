@@ -41,7 +41,7 @@ DES quá nhỏ ($2^{56}$ khả năng) khiến thuật toán này hiện nay khô
 
 AES.
 
-ANHBT/1.jpg
+![alt text](ANHBT/1.jpg)
 
 ### 1.2. Mô tả thuật toán AES
 
